@@ -1,3 +1,18 @@
+
+"""
+Author: Marios Adamoudis
+
+Programming Language: Python 
+Development Environment: Visual Studio Code
+
+Description:
+This code implements the algorithm presented in the research
+paper entitled "Solving Linear Congruences with Constraints"
+and reproduces the computational results.
+"""
+
+
+
 import random
 import math
 import time
@@ -10,7 +25,7 @@ from fpylll import IntegerMatrix, LLL, GSO
 import gmpy2
 from gmpy2 import mpq
 
-q = 9001
+
 
 
 def lattice_matrix(A, q):
